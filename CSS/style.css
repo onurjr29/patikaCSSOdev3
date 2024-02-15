@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    padding: 15px;
+}
+
+.header-left{
+    display: flex;
+    align-items: center;
+}
+
+.header-left>a{
+    padding-inline: 10px;
+    text-decoration: none;
+    color: rgb(85, 84, 84);
+}
+
+.header-right{
+    width: 250px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-right>a{
+    text-decoration: none;
+    color: black;
+}
+
+.signin-button{
+    width: 70px;
+    height: 30px;
+    background-color: #4486f8;
+    border: none;
+    color: white;
+}
+
+.header-right>i{
+    color: black;
+    fill: rgb(99, 99, 99);
+    margin-top: 3px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    padding: 150px;
+}
+
+.main{
+    width: 50em;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.search{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid rgba(132, 132, 132, 0.28);
+    width: 570px;
+    height: 40px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.search-box{
+    position: relative;
+    border: none;
+
+    /* top: 0.001px; */
+    bottom: 4px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    
+    gap: 12px;
+}
+
+.btn{
+    width: 140px;
+    height: 35px;
+    border: none;
+    color: rgb(99, 99, 99);
+    border-radius: 3px;
+}
+
+.icon-search{
+    position: relative;
+    left: 10px;
+    top: 3px;
+    fill: #9aa0a6
+}
+
+.icon-voice{
+    position: relative;
+    left: 32em;
+    top: 3px;
+    fill: #9aa0a6;
+}
+
+.footer{
+    border-top: 1px solid rgba(128, 128, 128, 0.077);
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer-left{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    position: relative;
+    bottom: 7px;
+    padding-inline:15px ;
+}
+
+.footer-left>a{
+    text-decoration: none;
+    font-size: smaller;
+    color: rgb(99, 99, 99);
+}
+
+.footer-right{
+    display: flex;
+    gap: 30px;
+    width: 300px;
+    position: relative;
+    justify-content: end;
+    bottom: 7px;
+    padding-inline: 15px;
+}   
+
+.footer-right>a{
+    text-decoration: none;
+    font-size: smaller;
+    color: rgb(99, 99, 99);
+}
